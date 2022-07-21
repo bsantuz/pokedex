@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  padding: 10px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 5%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: bold;
+  background-color: #2edf8c;
+  color: #fff;
+}
+
+input {
+  border: none;
+  border-radius: 110px;
+  background-color: #2edf8c;
+  color: #fff;
+  padding: 4px 10px;
+}
+
+input:focus {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+  border-radius: 50%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#2b3846), to(#2edf8c));
+  background-image: linear-gradient(to right, #2b3846, #2edf8c);
+  background-size: 400% 400%;
+  -webkit-animation: changeBackgroundColor 15s infinite ease-in-out;
+          animation: changeBackgroundColor 15s infinite ease-in-out;
+}
+
+span {
+  color: #fff;
+  margin-top: 20px;
+}
+
+#lupa {
+  width: 20px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0;
+          flex: 0 0;
+  background-image: none;
+  border-radius: 0;
+  margin: 0 10px;
+}
+
+@-webkit-keyframes changeBackgroundColor {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+@keyframes changeBackgroundColor {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+#pokedex_view {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #212a33;
+  border-radius: 10px;
+  width: 1000px;
+  min-height: 124px;
+}
+
+#pokedex_view div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100px;
+          flex: 0 0 100px;
+  text-align: center;
+  margin: 4px 4px 0;
+}
+
+#pokedex_view p {
+  position: relative;
+  top: -10px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black, 1px 0px 0px black;
+}
+
+@media (max-width: 950px) {
+  #pokedex_view {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
