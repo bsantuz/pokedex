@@ -27,7 +27,7 @@
 * Show more : Mostra os próximos 9 pokemons.
 * Show all : Mostra todos os pokemons.
 <br><a href="https://bsantuz.github.io/pokedex/">Teste a aplicação</a>
-<img scr="./p-web.png">
+<img src="./p-web.png">
 
 ### Como executar o projeto
 Antes de começar, você vai precisar ter instalado em sua máquina um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
